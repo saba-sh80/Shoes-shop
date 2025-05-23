@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/mainshoes.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #464646;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.list {
+    display: grid;
+    justify-items: end;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0px 20px;
+    width: 64rem;
+    margin: 0 10px 0;
+    padding: 0;
+}
+
+h1{
+    width: 15rem;
+    text-align: end;
+}
+
+#logo{
+    padding: 20px 20px;
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+
+.items {
+    list-style-type: none;
+    color: rgb(221, 210, 195);
+    font-size: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(221, 210, 195);
+}
+
+.main-biography {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.biography {
+    font-size: 25px;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+span {
+    margin: 15vw;
+}
+
+.form-and-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-bottom: 100px;
+}
+
+.image-item {
+    width: 80%;
+    height: 25rem;
+    object-fit: cover;
+    margin-left: 60px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.login-form {
+    width: 80%;
+    height: 25rem;
+    border: 1px solid rgb(221, 210, 195);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(221, 210, 195);
+    margin-top: 50px;
+
+}
+
+.text {
+    width: 80%;
+    height: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid rgb(221, 210, 195);
+    border-radius: 10px;
+}
+
+.password {
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid rgb(221, 210, 195);
+    border-radius: 10px;
+}
+
+.button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.create-link {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(221, 210, 195);
+    margin-bottom: 5px;
+}
+
+
+.forget-link {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(221, 210, 195);
+}
+
+.mainProducts {
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 80px;
+}
+
+.products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 40px 10px;
+
+}
+
+.example-product {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin: 20px 10px;
+}
+
+.shadow-activer {
+    -webkit-box-shadow: 6px 7px 44px 2px rgba(128, 111, 128, 0.97);
+    -moz-box-shadow: 6px 7px 44px 2px rgba(128, 111, 128, 0.97);
+    box-shadow: 6px 7px 44px 2px rgba(128, 111, 128, 0.97);
+}
+
+hr{
+    background-color:darkgrey;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-rows: repeat(2 , 1fr);
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.footer-items{
+    align-items: center;
+    color: rgb(221, 210, 195);
+    width: 90%;
+    height: 50px;
+    margin-left: 30px;
+}
+
+span{
+    margin: 0px 0px;
+}
+svg{
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+a{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 3px;
+}
