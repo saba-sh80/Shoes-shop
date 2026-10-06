@@ -14,11 +14,6 @@ body {
 }
 
 
-a {
-    text-decoration: none;
-    color: rgb(221, 210, 195);
-}
-
 .example-product {
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -32,8 +27,10 @@ svg{
     height: 20px;
 }
 
-a{
+/* a{
     font-size: 17px;
     margin-top: 0px;
     margin-left: 3px;
-}
+    text-decoration: none;
+    color: rgb(221, 210, 195);
+} */
