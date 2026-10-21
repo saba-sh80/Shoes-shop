@@ -481,7 +481,7 @@ function Footer() {
           <a href="#">contact</a>
         </span>
 
-        {/* 2. Share (این بخش مشکل داشت که حل شد) */}
+        {/* Share */}
         <span className="flex flex-row justify-items-center items-center w-90 h-12 gap-x-1">
           <svg
             id="Layer_1"

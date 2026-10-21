@@ -1,8 +1,9 @@
-import Article from "./assets/components/Article";
-import Biography from "./assets/components/Biography";
-import Footer from "./assets/components/Footer";
-import Navbar from "./assets/components/Navbar";
-import Products from "./assets/components/Products";
+import Article from "./components/Article";
+import Biography from "./components/Biography";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Products from "./components/Products";
+
 
 function App() {
   return (

@@ -11,21 +11,14 @@ html,
 body {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden; /* جلوگیری کامل از اسکرول و لبه‌های خالی افقی */
+  overflow-x: hidden;
 }
 
 body {
-    background-image: url(/mainshoes.avif);
+    background-image: url(/images/mainshoes.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-
-.example-product {
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    margin: 20px 10px;
 }
 
 
@@ -34,11 +27,3 @@ svg{
     width: 20px;
     height: 20px;
 }
-
-/* a{
-    font-size: 17px;
-    margin-top: 0px;
-    margin-left: 3px;
-    text-decoration: none;
-    color: rgb(221, 210, 195);
-} */
