@@ -1,6 +1,6 @@
 function Biography() {
   return (
-    <div className="h-38 flex flex-col justify-center w-full gap-y-1">
+    <div className="pt-48 h-38 flex flex-col justify-center w-full gap-y-1">
       <p className="text-yellow-600 text-2xl font-bold text-center">
         Life is not walking on the moon…
       </p>
