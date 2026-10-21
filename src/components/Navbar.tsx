@@ -8,9 +8,9 @@ function Navbar() {
       {/* container of navbar*/}
       <div className="flex items-center justify-between h-20 w-full lg:h-24 px-4 md:px-0 relative">
         {/* logo of the shoes shop*/}
-        <div className="bg-white w-24 sm:w-32 lg:w-44 h-9 sm:h-12 lg:h-14 flex justify-center items-center rounded-md shrink-0">
+        <div className="bg-gray-300 w-24 sm:w-32 lg:w-44 h-9 sm:h-12 lg:h-14 flex justify-center items-center rounded-md shrink-0">
           <div>
-            <h3 className="w-full text-right text-black p-2 sm:p-5 text-[13px] sm:text-[16px] lg:text-[25px] font-bold rounded-md cursor-pointer">
+            <h3 className="w-full text-right text-black p-2 sm:p-5 text-[13px] sm:text-[16px] lg:text-[25px] font-bold rounded-md">
               Shoes shop
             </h3>
           </div>
@@ -50,32 +50,30 @@ function Navbar() {
         {/* serach, shopping cart and login - in md and more */}
         <div className="hidden md:flex items-center justify-evenly gap-2">
           {/* search bar*/}
-          <div className="flex items-center justify-evenly bg-gray-50 rounded-md w-44 lg:w-50 h-12 lg:h-14">
+          <div className="flex items-center justify-evenly bg-gray-300 rounded-md w-44 lg:w-50 h-12 lg:h-14">
             <input
-              className="bg-white border rounded-md w-32 lg:w-36 h-9 placeholder:pl-2.5 placeholder:text-[13px] text-black px-2 focus:outline-none"
+              className="bg-gray-50 border rounded-md w-32 lg:w-36 h-9 placeholder:pl-2.5 placeholder:text-[13px] text-black px-2 focus:outline-none"
               type="text"
               placeholder="Search..."
             />
             <img
-              className="w-4 h-4 lg:w-5 lg:h-5 cursor-pointer shrink-0"
+              className="w-4 h-4 lg:w-5 lg:h-5 cursor-pointer shrink-0 transform-all"
               src="/icons/search-icon.png"
               alt="search icon"
             />
           </div>
 
           {/* shopping cart and login */}
-          <div className="bg-gray-50 h-12 lg:h-14 w-16 lg:w-20 flex justify-evenly items-center rounded-md">
+          <div className="bg-gray-300 h-12 lg:h-14 w-16 lg:w-20 cursor-pointer flex justify-evenly items-center rounded-md transform-all">
             <div>
               <img
-                className="w-4 h-4 lg:w-5 lg:h-5 cursor-pointer shrink-0"
+                className="w-4 h-4 lg:w-5 lg:h-5 shrink-0"
                 src="/icons/shopping-cart.png"
                 alt="shopping cart icon"
               />
             </div>
-            <div className="bg-gray-50 lg:h-14 w-7 lg:w-10 flex items-center justify-center gap-2 rounded-md">
-              <a className="text-gray-900 cursor-pointer text-[13px] lg:text-[15px]">
-                Login
-              </a>
+            <div className="bg-gray-300 lg:h-14 w-7 lg:w-10 flex items-center justify-center gap-2 rounded-md">
+              <a className="text-gray-900 text-[13px] lg:text-[15px] font-semibold">Login</a>
             </div>
           </div>
         </div>

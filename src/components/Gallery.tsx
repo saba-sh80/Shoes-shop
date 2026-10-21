@@ -4,7 +4,7 @@ function Gallery() {
       <img
         src="/images/shoes.jpg"
         alt="shoes"
-        className="w-full h-full object-cover rounded-md"
+        className="w-full h-full object-cover rounded-xl"
       />
     </div>
   );
