@@ -87,6 +87,18 @@ npm run dev
 
 The application will then be available on the local development server provided by Vite.
 
+---
+
+
+<div align="center">
+
+⭐ If you liked this project, support it by giving it a star!
+
+Made with ❤️
+
+</div>
+---
+
 👩🏻‍💻 Author
 
 Saba Shirazi
