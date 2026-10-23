@@ -1,4 +1,4 @@
-# 👟 Shoes Shop
+# 👞 Shoes Shop
 
 Shoes Shop is a frontend e-commerce website for browsing and shopping for shoes and other footwear products.
 
